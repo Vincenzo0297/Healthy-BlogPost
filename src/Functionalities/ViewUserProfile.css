@@ -1,0 +1,62 @@
+/* UserProfileManagement.css */
+
+/* Only target elements within the UserProfileManagement component */
+.user-profile-management {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+
+  .UserAccount-title{
+    margin: 100px;
+    text-align: center;
+  }
+  
+  .user-profile-management h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .user-profile-management h2 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-management ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-profile-management ul li {
+    font-size: 2em;
+    color: #000000;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .user-profile-management h1 {
+      font-size: 2em;
+    }
+  
+    .user-profile-management h2 {
+      font-size: 1.2em;
+    }
+  
+    .user-profile-management ul li {
+      font-size: 1em;
+    }
+  
+    .user-profile-management .button-button {
+      padding: 8px 16px;
+      font-size: 0.9em;
+    }
+  }
+  

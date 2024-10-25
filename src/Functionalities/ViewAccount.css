@@ -1,0 +1,86 @@
+.view-account {
+    max-width: 800px;
+    margin: 140px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-account h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .view-account table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .view-account th,
+  .view-account td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .view-account th {
+    background-color: #f2f2f2;
+  }
+  
+  .view-account td {
+    background-color: #fff;
+  }
+  
+  .view-account .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  .button-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+  
+  .button-button {
+    background-color: #28a745;
+  }
+  
+  .button-button:hover {
+    background-color: #218838;
+  }
+  
+  .button-button {
+    background-color: #007bff;
+  }
+  
+  .button-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-button {
+    background-color: #dc3545;
+  }
+  
+  .button-button:hover {
+    background-color: #c82333;
+  }
+  
+  .view-account input {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
